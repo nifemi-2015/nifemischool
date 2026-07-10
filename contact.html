@@ -1,0 +1,104 @@
+<!-- ============================================================
+   FILE: contact.html
+   Nifemi GenAlpha Private School – Contact Page
+   ============================================================ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact – Nifemi GenAlpha Private School</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <span class="logo-text">Nifemi<span>GenAlpha</span></span>
+                </a>
+            </div>
+            <input type="checkbox" id="nav-check" />
+            <div class="nav-toggle">
+                <label for="nav-check" class="nav-hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </label>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="admission.html">Admission</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE TITLE -->
+    <section class="page-title">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send a Message</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="cname">Your Name</label>
+                            <input type="text" id="cname" placeholder="Full name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="cemail">Email</label>
+                            <input type="email" id="cemail" placeholder="you@example.com" />
+                        </div>
+                        <div class="form-group">
+                            <label for="csubject">Subject</label>
+                            <input type="text" id="csubject" placeholder="Subject" />
+                        </div>
+                        <div class="form-group">
+                            <label for="cmessage">Message</label>
+                            <textarea id="cmessage" rows="5" placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Details & Map -->
+                <div class="contact-details">
+                    <h2>Contact Information</h2>
+                    <p><strong>📍 Address:</strong><br />42 Education Avenue, Ikeja, Lagos, Nigeria</p>
+                    <p><strong>📞 Phone:</strong><br />+234 800 123 4567<br />+234 809 876 5432</p>
+                    <p><strong>✉️ Email:</strong><br />info@nifemigenalpha.edu.ng</p>
+
+                    <div class="social-media">
+                        <strong>Follow Us</strong>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook">📘</a>
+                            <a href="#" aria-label="Twitter">🐦</a>
+                            <a href="#" aria-label="Instagram">📷</a>
+                            <a href="#" aria-label="YouTube">▶️</a>
+                        </div>
+                    </div>
+
+                    <div class="map-placeholder">
+                        <span>📍 Google Map Placeholder</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer"><!-- same as index --></footer>
+</body>
+</html>

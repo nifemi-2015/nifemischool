@@ -1,0 +1,141 @@
+<!-- ============================================================
+   FILE: admission.html
+   Nifemi GenAlpha Private School – Admission Page
+   ============================================================ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission – Nifemi GenAlpha Private School</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <span class="logo-text">Nifemi<span>GenAlpha</span></span>
+                </a>
+            </div>
+            <input type="checkbox" id="nav-check" />
+            <div class="nav-toggle">
+                <label for="nav-check" class="nav-hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </label>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="admission.html" class="active">Admission</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE TITLE -->
+    <section class="page-title">
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>Join the GenAlpha family</p>
+        </div>
+    </section>
+
+    <!-- ADMISSION CONTENT -->
+    <section class="admission-content">
+        <div class="container">
+            <div class="admission-grid">
+                <!-- Left: Requirements & Process -->
+                <div>
+                    <h2>Admission Requirements</h2>
+                    <ul>
+                        <li>Birth certificate (for Nursery &amp; Primary)</li>
+                        <li>Previous school report (for transfer students)</li>
+                        <li>Passport photographs (2 copies)</li>
+                        <li>Entrance examination (for JSS &amp; SSS)</li>
+                        <li>Interview with parents/guardians</li>
+                    </ul>
+
+                    <h2>Admission Process</h2>
+                    <ol>
+                        <li>Obtain application form online or at the school.</li>
+                        <li>Submit completed form with required documents.</li>
+                        <li>Take the entrance assessment (if applicable).</li>
+                        <li>Attend the family interview.</li>
+                        <li>Receive admission offer and pay fees.</li>
+                    </ol>
+                </div>
+
+                <!-- Right: Fees Table & Buttons -->
+                <div>
+                    <h2>School Fees (Session)</h2>
+                    <table class="admission-table">
+                        <thead>
+                            <tr><th>Class</th><th>Tuition</th><th>Other Fees</th><th>Total</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Nursery</td><td>₦250,000</td><td>₦50,000</td><td>₦300,000</td></tr>
+                            <tr><td>Primary</td><td>₦300,000</td><td>₦60,000</td><td>₦360,000</td></tr>
+                            <tr><td>JSS</td><td>₦350,000</td><td>₦70,000</td><td>₦420,000</td></tr>
+                            <tr><td>SSS</td><td>₦400,000</td><td>₦80,000</td><td>₦480,000</td></tr>
+                        </tbody>
+                    </table>
+                    <p class="fee-note">* Fees include tuition, books, uniforms, and activities.</p>
+                    <div class="admission-actions">
+                        <a href="#" class="btn btn-primary">Download Application Form</a>
+                        <a href="#" class="btn btn-gold-outline">Apply Online</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Admission Form Sample -->
+            <div class="admission-form-sample">
+                <h2>Admission Form (Sample)</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" placeholder="e.g. Adebayo Olamide" />
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" />
+                    </div>
+                    <div class="form-group">
+                        <label for="class">Class Applying For</label>
+                        <select id="class">
+                            <option>Nursery</option>
+                            <option>Primary</option>
+                            <option>JSS</option>
+                            <option>SSS</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="parent">Parent/Guardian Name</label>
+                        <input type="text" id="parent" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="prev-school">Previous School</label>
+                        <input type="text" id="prev-school" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer"><!-- same as index --></footer>
+</body>
+</html>
